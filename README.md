@@ -51,7 +51,7 @@ Para simular y sintetizar el diseño se necesita:
    ```sh
    ghdl -a -fsynopsys -fexplicit *.vhd
    ghdl -e -fsynopsys -fexplicit testbench
-   ghdl -r -fsynopsys -fexplicit testbench --vcd=output.vcd --ieee-asserts=disable --stop-time=500ns
+   ghdl -r -fsynopsys -fexplicit testbench --vcd=output.vcd --ieee-asserts=disable --stop-time=1000ns
 
    ```
 3. Visualiza la salida con GTKWave:
