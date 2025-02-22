@@ -1,7 +1,7 @@
 # Acelerador para árboles GBDT en VHDL
 
 ## Descripción
-ste proyecto implementa un acelerador de árboles GBDT (Gradient Boosted Decision Trees) en VHDL. El diseño recibe una entrada de 8x16 bits y ejecuta los árboles almacenados en una memoria ROM, generando la salida correspondiente.
+Este proyecto implementa un acelerador de árboles GBDT (Gradient Boosted Decision Trees) en VHDL. El diseño recibe una entrada de 8x16 bits y ejecuta los árboles almacenados en una memoria ROM, generando la salida correspondiente.
 
 El formato de los nodos de los árboles es el siguiente:
 - Nodos rama:
